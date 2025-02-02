@@ -3,8 +3,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const token = process.env.BOT_TOKEN;
-const ownerId = process.env.OWNER_ID;
+const token ="7981716643:AAFWlWHIKUpUlnijTc8m4eHvBsdQRJ2KUHA"
+const ownerId = "6258915779 "
 const channelId1 = '@RishuAPI';
 const channelId2 = '@Rishu_mood';
 const mongoURI = process.env.MONGO_URI;
